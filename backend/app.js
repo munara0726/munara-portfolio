@@ -24,7 +24,7 @@ if (!isProduction) {
   app.use(cors());
 };
 
-app.use(cors({ origin: ["http://localhost:3000", "https://zhandos-arinov-portfolio.onrender.com"] }));
+app.use(cors({ origin: ["http://localhost:3000", "https://munara-portfolio.onrender.com"] }));
 
 // helmet helps set a variety of headers to better secure your app
 app.use(
