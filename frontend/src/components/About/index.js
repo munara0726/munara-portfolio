@@ -7,23 +7,19 @@ export default function About() {
       <div className="about-container">
         <div className="about-text-container">
           <h1 className="about-title">
-            Hi, I'm Zhandos.
-            <br />I love to build amazing apps.
+            Hi, I'm Munara.
           </h1>
           <p className="about-paragraph">
-            I'm an enthusiastic software engineer, having honed my skills at 42 Silicon Valley, a renowned coding school. With a strong foundation in JavaScript, Express, Node, HTML, CSS, React, and Redux, I have the technical versatility and experience to tackle complex problems and create exceptional digital solutions. I'm always excited to embrace new challenges and further broaden my expertise.
+            I'm a passionate QA Automation worker with 4 years of experience. My expertise includes software testing, quality control, test automation, and project management. I thrive on implementing innovative testing methodologies that elevate software product quality. Let's connect on LinkedIn to discuss potential opportunities.
           </p>
           <div className="about-buttons">
             <a href="#contact" className="about-button work-with-me">
               Contact Me
             </a>
-            <a href="#projects" className="about-button see-past-work">
-              See My Projects
-            </a>
           </div>
         </div>
         <div className="about-image-container">
-          <img className="about-image" alt="hero" src="./coding.svg" />
+          <img className="about-image" alt="hero" src="./women-in-tech.jpg" />
         </div>
       </div>
     </section>

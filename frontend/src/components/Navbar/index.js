@@ -40,7 +40,7 @@ function Navbar() {
     <header>
       <div className="container">
         <a className="title-font" href="#about">
-          Zhandos Arinov
+          Munara Toktobolotova
         </a>
         {isMobile ? (
           <div ref={menuRef}>
@@ -51,9 +51,6 @@ function Navbar() {
               <nav className="mobile-nav">
                 <a href="#skills" className="link" onClick={toggleMenu}>
                   Skills
-                </a>
-                <a href="#projects" className="projects link" onClick={toggleMenu}>
-                  Projects
                 </a>
                 <a
                   href="#contact"
@@ -69,9 +66,6 @@ function Navbar() {
           <nav>
             <a href="#skills" className="link">
               Skills
-            </a>
-            <a href="#projects" className="projects link">
-              Projects
             </a>
             <a href="#contact" className="contact link">
               Contact Me <i className="fas fa-arrow-right"></i>

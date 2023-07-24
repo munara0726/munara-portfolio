@@ -29,22 +29,9 @@ const ContactLinks = () => {
         onMouseEnter={() => setActiveLink('Resume')}
         onMouseLeave={() => setActiveLink('')}
       >
-        <a href="https://docs.google.com/document/d/1mNv8V8YEZWieV6DlmS5BaSbmVJxMaHaU5iwM2madA1s/export?format=pdf" download className="link-content">
+        <a href="https://docs.google.com/document/d/1IAJFH_h13qIPIGxxMCl3vAn-GhnX5nXam-DCa1UdPBk/export?format=pdf" download className="link-content">
           <FontAwesomeIcon icon={faFileAlt} size={iconSize} />
           {activeLink === 'Resume' && <span className="link-text">Resume</span>}
-        </a>
-      </div>
-      <div
-        className="contact-link"
-        onMouseEnter={() => setActiveLink('Github')}
-        onMouseLeave={() => setActiveLink('')}
-      >
-        <a
-          href="https://github.com/jandos0492"
-          target="_blank" rel="noopener noreferrer"
-          className="link-content">
-          <FontAwesomeIcon icon={faGithub} size={iconSize} />
-          {activeLink === 'Github' && <span className="link-text">Github</span>}
         </a>
       </div>
       <div
@@ -53,7 +40,7 @@ const ContactLinks = () => {
         onMouseLeave={() => setActiveLink('')}
       >
         <a 
-          href="https://www.linkedin.com/in/zhandos-arinov-19046a156/" 
+          href="https://www.linkedin.com/in/munara-toktobolotova/" 
           target="_blank" rel="noopener noreferrer"
           className="link-content">
           <FontAwesomeIcon icon={faLinkedin} size={iconSize} />

@@ -1,5 +1,5 @@
 {
-  "name": "zhandos-arinov-portfolio",
+  "name": "munara-portfolio",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -13,10 +13,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jandos0492/portfolio-project.git"
+    "url": "git+https://github.com/munara0726/munara-portfolio.git"
   },
   "keywords": [],
-  "author": "Zhandos Arinov",
+  "author": "Munara Toktobolotova",
   "license": "ISC"
-  
 }
